@@ -260,3 +260,20 @@ function NoD(a,b) {
 
  	)
 
+var NoK = function(a,b) {
+  var nod = NoD(a,b)
+  var result = (a * b)/nod
+  return result
+}
+
+var knopka1 = document.querySelector(".buttonNoK")
+var fieldResult = document.querySelector(".result2")
+knopka1.addEventListener("click", function(event) {
+event.preventDefault()
+var x = document.querySelector(".var3").value
+var y = document.querySelector(".var4").value
+fieldResult.textContent = NoK(x,y)
+}
+
+
+	)
