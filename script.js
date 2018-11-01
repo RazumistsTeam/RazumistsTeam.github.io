@@ -277,3 +277,27 @@ fieldResult.textContent = NoK(x,y)
 
 
 	)
+
+var knopka3 = document.querySelector(".open")
+var knopka4 = document.querySelector(".open1")
+var block = document.querySelector(".popup")
+knopka3.addEventListener("click", function(event){
+	event.preventDefault()
+	block.classList.remove("popup--hide")
+	knopka3.classList.add("popup--hide")
+	knopka4.classList.remove("popup--hide")
+
+}
+
+
+	)
+
+knopka4.addEventListener("click", function(event){
+event.preventDefault()
+block.classList.add("popup--hide")
+knopka4.classList.add("popup--hide")
+knopka3.classList.remove("popup--hide")
+
+
+
+})

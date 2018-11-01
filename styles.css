@@ -62,3 +62,31 @@ max-width:500px;
 word-break:break-all;
 
 }
+
+.popup--hide{
+	display:none !important;
+}
+.popup--vision {
+	display:inherit;
+}
+.open {
+	display: block;
+	margin:35px auto;
+	height: 40px;
+	width:430px;
+	font-family: gabriola;
+	font-size:25px;
+	background-color:#D0918B;
+	color:#DDF513;
+
+}
+.open1 {
+	display: block;
+	margin:35px auto;
+	height: 40px;
+	width:430px;
+	font-family: gabriola;
+	font-size:25px;
+	background-color:#D0918B;
+	color:#DDF513;
+}
